@@ -1,5 +1,14 @@
 {
-  "extends": ["standard", "standard-jsx"],
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-jsx", "standard-react"],
+  "env": {
+        "browser": true,
+        "node": true
+    },
+    "settings": {
+        "ecmascript": 6,
+         "jsx": true
+    },
   "rules": {
     "no-extra-parens": 0
   }
