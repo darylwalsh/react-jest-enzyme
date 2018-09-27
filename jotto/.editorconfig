@@ -1,0 +1,40 @@
+;.editorconfig
+
+root = true
+
+[**.js]
+;ss path to optional external js beautifier, default is vim-jsbeautify/plugin/lib
+path=/home/barko187/.nvm/versions/node/v8.11.4/bin/js-beautify
+; Javascript interpreter to be invoked by default 'node'
+bin = node
+e4x = true
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+[**.jsx]
+; path to optional external js beautifier, default is vim-jsbeautify/plugin/lib
+path=/home/barko187/.nvm/versions/node/v8.11.4/bin/js-beautify
+; Javascript interpreter to be invoked by default 'node'
+bin = node
+e4x = true
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+[**.css]
+path=/home/barko187/.nvm/versions/node/v8.11.4/bin/css-beautify
+indent_style = space
+indent_size = 2
+tab_width = 2
+
+[**.html]
+; Using special comments
+; And such comments or apply only in global configuration
+; So it's best to avoid them
+;vim:path=/usr/local/lib/node_modules/js-beautify/js/lib/beautify-html.js
+;vim:max_char=78:brace_style=expand
+path=/home/barko187/.nvm/versions/node/v8.11.4/bin/html-beautify
+indent_style = space
+indent_size = 2
+tab_width = 2
